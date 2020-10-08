@@ -19,8 +19,8 @@ const ListScreen = () => {
 
     return (              // data and renderItem are props of Flatlist
         <FlatList
-            horizontal   //horizonatally scrollable
-            showsHorizontalScrollIndicator={false}  // hides the scroll bar in the bottom
+            //horizontal   //horizonatally scrollable
+            //showsHorizontalScrollIndicator={false}  // hides the scroll bar in the bottom
             keyExtractor={(friend) => friend.name}    //key should be UNIQUE and a STRING
             data={friends}
             renderItem={({ item }) => {
